@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义view的属性，和内置属性一样-->
+    <declare-styleable name="SpotlightView">
+        <attr name="target" format="reference" />
+        <attr name="mask" format="reference" />
+	</declare-styleable>
+</resources>
