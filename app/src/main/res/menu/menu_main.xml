@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_spotlight" android:title="SpotlightView"
+        android:orderInCategory="200" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_ColorMatrix" android:title="ColorMatrix"
+        android:orderInCategory="300" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_fourcolor" android:title="FourColor"
+        android:orderInCategory="400" app:showAsAction="never"/>
+    <item android:id="@+id/action_porterduff" android:title="PorterDuff"
+        android:orderInCategory="500" app:showAsAction="never"/>
+    <item android:id="@+id/action_hollow" android:title="HollowText"
+        android:orderInCategory="500" app:showAsAction="never"/>
+    <item android:id="@+id/action_Emboss" android:title="Emboss"
+        android:orderInCategory="600" app:showAsAction="always"/>
+    <item android:id="@+id/action_blur" android:title="BlurMask"
+        android:orderInCategory="700" app:showAsAction="always"/>
+
+    <item android:id="@+id/action_renderscript" android:title="RenderScript"
+        android:orderInCategory="800" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_circle" android:title="CircleImageView"
+        android:orderInCategory="900" app:showAsAction="never"/>
+</menu>

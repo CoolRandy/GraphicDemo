@@ -1,0 +1,8 @@
+<com.example.randy.graphicdemo.customview.FourColorView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:src="@mipmap/lena"
+  tools:context=".FourColorsActivity"/>
