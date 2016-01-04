@@ -5,6 +5,7 @@
         <attr name="target" format="reference" />
         <attr name="mask" format="reference" />
 	</declare-styleable>
+<<<<<<< HEAD
 
     <declare-styleable name="CircleImageView">
         <attr name="civ_border_width" format="dimension" />
@@ -13,4 +14,6 @@
         <attr name="civ_fill_color" format="color" />
     </declare-styleable>
 
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
 </resources>

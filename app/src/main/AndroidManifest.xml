@@ -26,7 +26,10 @@
         <activity android:name=".activity.EmbossMaskFilterActivity"/>
         <activity android:name=".activity.BlurMaskFilterActivity"/>
         <activity android:name=".activity.RenderscriptBlurActivity"/>
+<<<<<<< HEAD
         <activity android:name=".activity.CircleImageViewActivity"/>
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
     </application>
 
 </manifest>

@@ -2,15 +2,23 @@ package com.example.randy.graphicdemo.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+<<<<<<< HEAD
 import android.graphics.Color;
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
 import android.graphics.ColorFilter;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
+<<<<<<< HEAD
 import android.graphics.Path;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.util.Log;
+=======
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
 
 import com.example.randy.graphicdemo.R;
 import com.example.randy.graphicdemo.utils.ImageUtil;
@@ -36,9 +44,14 @@ public class PorterDuffActivity extends SpinnerImageActivity {
         options.add(new Option(getString(R.string.original), original));
         options.add(new Option(getString(R.string.mask), mask));
         options.add(new Option(getString(R.string.circle_dim_around), circleDimAround(original, mask)));
+<<<<<<< HEAD
         options.add(new Option(getString(R.string.clip_circle), drawClipCircle(original)));
         for (PorterDuff.Mode mode: PorterDuff.Mode.values()){
             Log.e("TAG", "mode: " + mode.toString());
+=======
+
+        for (PorterDuff.Mode mode: PorterDuff.Mode.values()){
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
             options.add(new Option(mode.toString(), drawWithPorterDuff(original, mask, mode)));
         }
         return options;
@@ -88,6 +101,7 @@ public class PorterDuffActivity extends SpinnerImageActivity {
         return bitmap;
     }
 
+<<<<<<< HEAD
     public Bitmap drawClipCircle(Bitmap original){
         int radius = original.getWidth() / 2;
         Bitmap bitmap = Bitmap.createBitmap(original.getWidth(), original.getHeight(), Bitmap.Config.ARGB_8888);
@@ -103,6 +117,8 @@ public class PorterDuffActivity extends SpinnerImageActivity {
 
     }
 
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
     public ColorFilter createDimFilter(){
         ColorMatrix colorMatrix = new ColorMatrix();
         colorMatrix.setSaturation(0f);

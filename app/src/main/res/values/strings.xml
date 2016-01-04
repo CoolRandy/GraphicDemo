@@ -24,8 +24,11 @@
     <string name="four_colors">Four colors</string>
 
     <string name="circle_dim_around">Circle dim around</string>
+<<<<<<< HEAD
     <string name="clip_circle">Clip Circle</string>
     <string name="shader_circle">Shader Circle</string>
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
 
     <string name="porter_duff">Porter-Duff</string>
     <string name="mask">Mask</string>

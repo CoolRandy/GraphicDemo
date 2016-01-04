@@ -138,12 +138,15 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+<<<<<<< HEAD
         if(id == R.id.action_circle){
             Intent intent = new Intent(MainActivity.this, CircleImageViewActivity.class);
             startActivity(intent);
             return true;
         }
 
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
         return super.onOptionsItemSelected(item);
     }
 }

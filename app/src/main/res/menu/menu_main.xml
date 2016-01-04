@@ -22,7 +22,10 @@
 
     <item android:id="@+id/action_renderscript" android:title="RenderScript"
         android:orderInCategory="800" app:showAsAction="never"/>
+<<<<<<< HEAD
 
     <item android:id="@+id/action_circle" android:title="CircleImageView"
         android:orderInCategory="900" app:showAsAction="never"/>
+=======
+>>>>>>> 9adec7756b276c8292895e91bfd84b1ca884281b
 </menu>
